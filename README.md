@@ -7,6 +7,7 @@ The aim of this project is to analyze the interaction between my phases' pattern
 
 # Contents
 - [Motivation](#motivation)
+- [Project Goal](#project-goal)
 - [Data Source](#data-source)
 - [Data Analysis](#data-analysis)
 - [Findings](#findings)
@@ -19,6 +20,11 @@ Music has a significant impact on emotions, and emotional changes may be tied to
 - Understand the relationship between my music preferences (genre, tempo, energy, sound, etc.) and my monthly phases.
 - Identify trends that could help in creating personalized playlists to support emotional well-being during different phases.
 - Gain actionable insights into how monthly phases influences music preference.
+
+---
+
+## **Project Goal**
+The goal of this project is to uncover how different phases in my FLO period tracker correlate with my Spotify listening habits, including genres, tempos, and other audio attributes. By analyzing these interactions, I aim to generate actionable insights and potentially develop a playlist recommendation system based on my emotional and biological rhythms.
 
 ---
 
@@ -43,20 +49,20 @@ Collected data includes:
 
 ### **1. Data Preprocessing**
 - Exported and cleaned datasets from FLO and Spotify.
-- Aligned timestamps and extracted features like listening time, genre distribution, and mood phases.
-
+- Extracted features like total listening time, genre distribution, audio attributes (tempo, energy, valence), and FLO mood phases.
+  
 ### **2. Exploratory Data Analysis (EDA)**
-- Visualize trends in phases and music preferences.
+- Analyzed data distributions and visualized trends in phases and music preferences.
 - Identified correlations between Spotify attributes and FLO phases/moods.
-- Histograms, boxplots may be used.
 
 ### **3. Correlation Analysis**
-- Examine relationships between monthly phases and genres or song attributes or the volume.
-- Determine if certain phases align with specific music preferences.
+- Examine relationships between monthly phases and Spotify features.
+- Determined if certain phases align with specific music listening preferences.
+- Investigated the impact of sound levels (volume) and specific audio features on mood shifts.
 
 ### **4. Visualization**
    - Visualizations to represent trends and correlations.
-   - Heatmaps, bar charts, line charts, scatter plots may be used.
+   - Histograms, boxplots, heatmaps, bar charts, line charts, scatter plots, violin plots may be used.
 
 ---
 
@@ -66,4 +72,7 @@ This section will be completed after the analysis is conducted.
 ---
 
 ## **Limitations and Future Work**
-This section will be completed after the analysis is conducted. However, the project is limited to the features exported by FLO and Spotify, other factors that may influence emotional well-being and music preferences are not considered. 
+This section will be completed after the analysis is conducted. However, the expected limitations are:
+- Limited to personal data, which may not generalize to larger populations.
+- Limited features exported by FLO and Spotify, other factors that may influence emotional well-being and music preferences are not considered.
+- The frequency of data entries to FLO period tracker app may differ from month to month.
