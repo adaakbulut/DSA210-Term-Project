@@ -1,0 +1,13 @@
+# Ignore raw data files
+*.html
+*.json
+*.csv
+/path_to_sensitive_data/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+.venv/
