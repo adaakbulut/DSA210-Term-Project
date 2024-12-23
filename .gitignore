@@ -1,10 +1,9 @@
-# Ignore raw data files
-raw_data/*.html
+# Ignore all JSON files in raw_data directory
 raw_data/*.json
-raw_data/*.csv
 
-# Ignore anonymized intermediate files
+# Ignore anonymized or processed data
 anonymized_data/
+processed_data/
 
 # Ignore Python virtual environment
 .venv/
@@ -20,3 +19,8 @@ Thumbs.db
 
 # Ignore logs
 *.log
+
+# Allow scripts and other files
+!scripts/
+!README.md
+
