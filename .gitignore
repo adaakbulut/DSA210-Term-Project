@@ -1,0 +1,22 @@
+# Ignore raw data files
+raw_data/*.html
+raw_data/*.json
+raw_data/*.csv
+
+# Ignore anonymized intermediate files
+anonymized_data/
+
+# Ignore Python virtual environment
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
