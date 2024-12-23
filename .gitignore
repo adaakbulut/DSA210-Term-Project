@@ -1,13 +1,16 @@
-# Ignore raw data files
-*.html
-*.json
-*.csv
-/path_to_sensitive_data/
+# Raw data files
+raw_data/*.html
+raw_data/*.json
+raw_data/*.csv
 
-# Ignore Python cache files
+# Virtual environment
+.venv/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 
-# Ignore virtual environment directories
-.venv/
+# System files
+.DS_Store
+Thumbs.db
