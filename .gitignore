@@ -1,9 +1,12 @@
 # Ignore all JSON files in raw_data directory
 raw_data/*.json
 
-# Ignore anonymized or processed data
-anonymized_data/
+# Allow anonymized data to be committed
+!anonymized_data/*.json
+
+# Ignore processed or intermediate data files
 processed_data/
+*.csv
 
 # Ignore Python virtual environment
 .venv/
@@ -20,7 +23,4 @@ Thumbs.db
 # Ignore logs
 *.log
 
-# Allow scripts and other files
-!scripts/
-!README.md
 
