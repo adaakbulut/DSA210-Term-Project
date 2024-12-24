@@ -31,12 +31,12 @@ The goal of this project is to uncover patterns in physical activity across mens
 ## **Data Source**
 To protect privacy, raw data will not be shared in the repository. Instead, all analysis scripts and processed, anonymized data will be provided. A `.gitignore` file will be used to ensure sensitive or unnecessary files are excluded.
 
-### **1. Period Tracker App Data **
+### **1. Period Tracker App Data**
 Exported data includes:
 - **Phase Information**: Menstrual, follicular, luteal, and ovulation phases.
 - **Period Dates**:  Start and end dates of each menstrual cycle.
 
-### **2. Spotify API**
+### **2. Apple Health Data**
 Collected data includes:
 - **Step Counts**: Daily step counts recorded by Apple Health.
 - **Flights Climbed**: Number of flights climbed daily.
