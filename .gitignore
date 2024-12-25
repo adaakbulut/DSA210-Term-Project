@@ -1,26 +1,21 @@
-# Ignore all JSON files in raw_data directory
-raw_data/*.json
+# Ignore raw data files
+*.json
+*.xml
+*.zip
 
-# Allow anonymized data to be committed
-!anonymized_data/*.json
+# Exclude specific files that might contain sensitive information
+export.xml.zip
+measurements.json
 
-# Ignore processed or intermediate data files
-processed_data/
-*.csv
-
-# Ignore Python virtual environment
-.venv/
-
-# Ignore Python cache files
-__pycache__/
-*.pyc
-*.pyo
-
-# Ignore system files
-.DS_Store
-Thumbs.db
-
-# Ignore logs
+# Ignore temporary or log files
 *.log
+*.tmp
+.DS_Store
 
+# Ignore data backup files
+*.bak
+*.old
+*.orig
 
+# Ignore folders for local-only processing
+/raw_data/
