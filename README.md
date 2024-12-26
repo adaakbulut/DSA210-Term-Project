@@ -59,18 +59,44 @@ Collected data includes:
 - Investigated if certain phases align with increased or decreased physical activity levels.
 
 ### **4. Visualization**
-   - Visualizations to represent trends and correlations.
-   - Histograms, boxplots, heatmaps, bar charts, line charts, scatter plots, violin plots may be used.
+- Visualizations to represent trends and correlations.
+- Histograms, boxplots, heatmaps, bar charts, line charts, scatter plots, violin plots may be used.
 
 ---
 
 ## **Findings**
-This section will be completed after the analysis is conducted.
+### **1. Step Counts**
+- Trends: Step counts showed slight variations across menstrual phases. The Follicular phase recorded the highest average step count, suggesting increased activity levels post-menstruation.
+**Statistical Test Results:**
+- A Mann-Whitney U test revealed no significant difference between step counts during the Menstruation and Ovulation phases (p-value = 0.9584).
+**Visual Insights:**
+- Boxplots indicated a wider variation in step counts during the Menstruation phase, potentially reflecting day-to-day fluctuations in activity levels.
+  
+### **2. Flights Climbed**
+- Trends: Flights climbed were consistently higher during the Follicular phase compared to the Ovulation phase, with average values dropping slightly during the Luteal phase.
+**Statistical Test Results:**
+- A two-tailed t-test comparing flights climbed during the Ovulation phase and other phases yielded no significant differences (p-value = 0.2099).
+**Visual Insights:**
+- Bar charts highlighted that while average flights climbed were higher during the Follicular phase, the differences were not statistically significant across phases.
+  
+### **3. Walking/Running Distance**
+- Trends: Walking/running distances remained stable across all phases, with a marginal decline during the Menstruation phase.
+**Statistical Test Results:**
+- A two-tailed t-test comparing walking/running distances during the Menstruation phase and other phases confirmed no significant differences (p-value = 0.8926).
+**Visual Insights:**
+- Distance distributions were narrow across phases, indicating consistent daily activity regardless of menstrual phase.
 
 ---
 
 ## **Limitations and Future Work**
-This section will be completed after the analysis is conducted. However, the expected limitations are:
-- Limited to personal data, which may not generalize to larger populations.
-- Period tracker data is restricted to phases and period dates, and Apple Health data is limited to step counts, flights climbed, and walking/running distances.
-- The frequency and accuracy of data entries in Apple Health and the period tracker app may vary day to day.
+### **Limitations**
+- The analysis is based on personal data, limiting its generalizability to larger populations.
+- Period tracker data is restricted to phase information and period dates, while Apple Health data is limited to step counts, flights climbed, and walking/running distances.
+- Data accuracy depends on the frequency and precision of entries in Apple Health and the period tracker app.
+- External factors such as weather, mood, or daily activities that could influence physical activity are not accounted for.
+
+### **Future Work**
+- Extend the analysis to a broader dataset from diverse individuals to generalize findings.
+- Incorporate additional metrics like heart rate variability, sleep patterns, or calorie expenditure for a more comprehensive analysis.
+- Explore machine learning techniques to predict physical activity levels based on menstrual phases.
+- Collaborate with researchers to validate findings and contribute to the growing body of menstrual health studies.
