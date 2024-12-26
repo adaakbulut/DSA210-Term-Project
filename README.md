@@ -86,7 +86,7 @@ Collected data includes:
 **Visual Insights:**
 - Distance distributions were narrow across phases, indicating consistent daily activity regardless of menstrual phase.
 
-**Observations**
+###**Observations**
 - No statistically significant differences were observed in physical activity metrics across menstrual phases.
 - Marginally higher activity levels (step counts and flights climbed) were noted during the Follicular phase, aligning with anecdotal evidence of increased energy levels during this phase.
 - The Menstruation phase showed a slight reduction in walking/running distances, potentially due to discomfort or fatigue.
