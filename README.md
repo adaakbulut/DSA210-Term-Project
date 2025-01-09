@@ -16,7 +16,7 @@ These two hypotheses will be tested:
 - [Data Analysis](#data-analysis)
 - [Findings](#findings)
   - [Hypothesis Testing](#hypothesis-testing)
-  - [Machine Learning](#machine-learning)
+  - [Machine Learning Techniques](#machine-learning-techniques)
 - [Limitations and Future Work](#limitations-and-future-work)
 
 ---
@@ -312,7 +312,7 @@ A one sided *p-test* was performed to evaluate the hypothesis at a significance 
 ![image](https://github.com/user-attachments/assets/ff35748d-2ca8-41c4-8143-308f6b08858d)
 
 
-## **Machine Learning**
+## **Machine Learning Techniques**
 
 - **Regression:** Predicting Step Count
 - *Objective:* The goal of this analysis was to predict step counts based on menstrual phases, flights climbed, and walking/running distance using a Random Forest Regression model.
