@@ -13,7 +13,7 @@ The aim of this project is to analyze the interaction between menstrual phases a
 # Contents
 - [Motivation](#motivation)
 - [Project Goal](#project-goal)
-- [Data Sources and Preprocessing](#data-source-and-preprocessing)
+- [Data Sources and Preprocessing](#data-sources-and-preprocessing)
 - [Data Analysis](#data-analysis)
 - [Findings](#findings)
 - [Limitations and Future Work](#limitations-and-future-work)
@@ -76,7 +76,34 @@ This part is explained further in [Data Sources and Preprocessing](#data-source-
 
 ### **4. Visualization**
 - Visualizations to represent trends and correlations.
-- Histograms, boxplots, heatmaps, bar charts, line charts, scatter plots, violin plots may be used.
+- Histograms, boxplots, heatmaps, bar charts, line charts, scatter plots are used.
+
+
+**Step Count:**
+![image](https://github.com/user-attachments/assets/fd59a476-a881-49f1-9b2c-f62b5c339d9e)
+![image](https://github.com/user-attachments/assets/03fcdb35-4d95-4374-b928-c02bf7c4e332)
+
+*Average Step Count:*
+![image](https://github.com/user-attachments/assets/62beb2d2-7e71-479d-82f4-4c8e1f4af164)
+![image](https://github.com/user-attachments/assets/8d24d3d0-f931-4378-85aa-b0592caf123a)
+
+
+**Flights Climbed:**
+![image](https://github.com/user-attachments/assets/b69fd6a5-7370-4f06-bea9-3aee13c4c6d4)
+![image](https://github.com/user-attachments/assets/c9faa3d1-4cce-45a7-a02f-be1cc49d1e8f)
+
+*Flights Climbed:*
+![image](https://github.com/user-attachments/assets/d5b36f4c-20d3-427b-a29f-6d81f62680eb)
+![image](https://github.com/user-attachments/assets/e9683bcb-57e2-4e3f-bd3a-d1077cfcf901)
+
+
+**Walking/Running Distance:**
+![image](https://github.com/user-attachments/assets/6e64b3f7-3ba5-4d4e-90cd-481dd10281c7)
+![image](https://github.com/user-attachments/assets/71b30704-9137-4d4d-afd7-543940382e66)
+
+*Walking/Running Distance:*
+![image](https://github.com/user-attachments/assets/c0c78e91-8455-449c-bfd5-560c012e2c6a)
+![image](https://github.com/user-attachments/assets/bf73b5fd-6851-4a91-9cb0-c61a15e5acb7)
 
 ---
 
