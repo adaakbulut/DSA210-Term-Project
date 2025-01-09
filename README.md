@@ -125,6 +125,14 @@ This part is explained further in [Data Sources and Preprocessing](#data-sources
 ##### *Phase Distribution Across Days and Months*
 ![image](https://github.com/user-attachments/assets/757389f6-46f2-4737-b765-7f8b046966b4)
 
+---
+
+## **Hypothesis Testing**
+
+### **1. Physical Activity in Menstruation Phase & Other Phases**
+
+
+### **2. Physical Activity in Follicular Phase & Other Phases**
 
 **Statistical Test Results:**
 - A Mann-Whitney U test revealed no significant difference between step counts during the Menstruation and Ovulation phases (p-value = 0.9584).
