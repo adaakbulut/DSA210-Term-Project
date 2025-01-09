@@ -3,11 +3,9 @@
 I am a student from Sabancı University, **Ada Dila Akbulut**, and this is my DSA210 term project. 
 The aim of this project is to analyze the interaction between menstrual phases and physical activity data from Apple Health.
 
-**Hypothesis** 
-
-**First hypothesis**: Physical activity is lower during the Menstruation phase compared to other phases.
-
-**Second hypothesis**: Physical activity is higher during the Follicular phase compared to other phases.
+These two hypothesis' will be tested:
+- **[First hypothesis](#1.-physical-activity-in-menstruation-phase-&-other-phases)**: Physical activity is lower during the Menstruation phase compared to other phases.
+- **[Second hypothesis](#2.-physical-activity-in-follicular-phase-&-other-phases)**: Physical activity is higher during the Follicular phase compared to other phases.
 
 ---
 
@@ -17,6 +15,7 @@ The aim of this project is to analyze the interaction between menstrual phases a
 - [Data Sources and Preprocessing](#data-sources-and-preprocessing)
 - [Data Analysis](#data-analysis)
 - [Findings](#findings)
+  - [Hypothesis Testing](#hypothesis-testing)
 - [Limitations and Future Work](#limitations-and-future-work)
 
 ---
