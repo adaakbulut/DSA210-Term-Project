@@ -251,6 +251,17 @@ A one sided *p-test* was performed to evaluate the hypothesis at a significance 
 ![image](https://github.com/user-attachments/assets/967a1ab9-8920-40dd-b168-572c660c504c)
 
 
+#### Conclusion for Hypothesis 1: 
+***Hypothesis:*** Physical activity is lower during the Menstruation phase compared to other phases.
+
+The analysis was conducted to test if physical activity metrics such as step count, flights climbed, and walking/running distance were significantly lower during the Menstruation phase. The results of the hypothesis testing indicated the following:
+- Step Count: There was no significant difference in step counts during the Menstruation phase compared to other phases (p-value > 0.05).
+- Flights Climbed: Similarly, no significant difference was found in flights climbed during the Menstruation phase (p-value > 0.05).
+- Walking/Running Distance: Although there was a slight decline in walking/running distance during the Menstruation phase, the difference was not statistically significant (p-value > 0.05).
+
+The null hypothesis could not be rejected for any of the metrics tested. There is **no** conclusive evidence that physical activity is significantly lower during the Menstruation phase compared to other phases.
+
+---
 
 ### **2. Physical Activity in Follicular Phase & Other Phases**
 My second hypothesis is that physical activity is higher during the Follicular phase compared to other phases. I did some hypothesis testing on Step Counts in Follicular Phase & Other Phases, Flights Climbed in Follicular Phase & Other Phases, Walking/Running Distance in Follicular Phase & Other Phases:
@@ -310,6 +321,16 @@ A one sided *p-test* was performed to evaluate the hypothesis at a significance 
   - Other Phases: 3.85 km
   
 ![image](https://github.com/user-attachments/assets/ff35748d-2ca8-41c4-8143-308f6b08858d)
+
+#### Conclusion for Hypothesis 2:
+***Hypothesis:*** Physical activity is higher during the Follicular phase compared to other phases.
+
+The second hypothesis focused on testing whether physical activity metrics were higher during the Follicular phase. The results of the hypothesis testing were as follows:
+- Step Count: A significant increase in step counts was observed during the Follicular phase compared to other phases (p-value < 0.05).
+- Flights Climbed: The difference in flights climbed during the Follicular phase was not statistically significant (p-value > 0.05).
+- Walking/Running Distance: A significant increase in walking/running distance was found during the Follicular phase compared to other phases (p-value < 0.05).
+
+The null hypothesis was rejected for step count and walking/running distance, indicating that physical activity levels were significantly higher during the Follicular phase for these metrics. However, no significant difference was observed in flights climbed. Despite flights climbed information, this suggests that the Follicular phase **is** associated with increased physical activity, particularly in terms of steps and walking/running distance.
 
 
 ## **Machine Learning Techniques**
