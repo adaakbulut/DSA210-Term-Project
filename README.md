@@ -82,7 +82,7 @@ This part has been explained further in [Data Sources and Preprocessing](#data-s
 ### **4. Visualization**
 - Visualizations to represent trends and correlations.
 - Histograms, boxplots, heatmaps, bar charts, line charts, scatter plots are used.
-- Here is some of the visualized data examples in the Findings section; however, it is highly recommended to check the following: [Data Visualization](.data_visualization.ipynb)
+- Here is some of the visualized data examples in the Findings section; however, it is highly recommended to check the following: [Data Visualization](data_visualization.ipynb)
   
 ---
 
