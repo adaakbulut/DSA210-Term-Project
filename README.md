@@ -37,7 +37,7 @@ The goal of this project is to uncover patterns in physical activity across mens
 ## **Data Sources and Preprocessing**
 To protect privacy, raw data will not be shared in the repository. Instead, all analysis scripts and processed, anonymized data will be provided. A `.gitignore` file will be used to ensure sensitive or unnecessary files are excluded.
 
-The preprocessing process of data is further explained in the following: [*Data Process*](.data_process.ipynb)
+The preprocessing process of data is further explained in the following: [*Data Process*](data_process.ipynb)
 
 The preprocessed data is included in the [data](data) file.
 
