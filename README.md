@@ -3,12 +3,17 @@
 I am a student from Sabancı University, **Ada Dila Akbulut**, and this is my DSA210 term project. 
 The aim of this project is to analyze the interaction between menstrual phases and physical activity data from Apple Health.
 
+**Hypothesis** 
+
+**First hypothesis**: Physical activity is lower during the Menstruation phase compared to other phases.
+**Second hypothesis**: Physical activity is higher during the Follicular phase compared to other phases.
+
 ---
 
 # Contents
 - [Motivation](#motivation)
 - [Project Goal](#project-goal)
-- [Data Source](#data-source)
+- [Data Sources and Preprocessing](#data-source-and-preprocessing)
 - [Data Analysis](#data-analysis)
 - [Findings](#findings)
 - [Limitations and Future Work](#limitations-and-future-work)
@@ -28,25 +33,36 @@ The goal of this project is to uncover patterns in physical activity across mens
 
 ---
 
-## **Data Source**
+## **Data Sources and Preprocessing**
 To protect privacy, raw data will not be shared in the repository. Instead, all analysis scripts and processed, anonymized data will be provided. A `.gitignore` file will be used to ensure sensitive or unnecessary files are excluded.
 
 ### **1. Period Tracker App Data**
 Exported data includes:
-- **Phase Information**: Menstrual, follicular, luteal, and ovulation phases.
+- **Phase Information**: Dates of menstrual, follicular, luteal, and ovulation phases.
 - **Period Dates**:  Start and end dates of each menstrual cycle.
+
+For the data I requested from Clue, the period tracker app, I have requested to export data from the app and received it in .json format. Then, I converted the information in the files into four different .csv files: 
+1. Period dates explaining whether that day contains a period flag or not (all_dates_with_period_flags.csv)
+2. The start and end dates of Follicular, Luteal, Menstruation and Ovulation phases. (phase_date_ranges.csv)
 
 ### **2. Apple Health Data**
 Collected data includes:
 - **Step Counts**: Daily step counts recorded by Apple Health.
 - **Flights Climbed**: Number of flights climbed daily.
 - **Walking/Running Distance**: Daily distance covered by walking or running.
-  
+
+For the data I requested from Apple Health, I have requested to export data from the app and received it in .xml format. Then, I converted the information in the files into two different .csv files:
+1. Step count by date (stepcount_data.csv)
+2. Flights climbed by date (flightsclimbed_data.csv)
+3. Walking/Running distance by date (distancewalkingrunning_data.csv)
+4. Combined information of step count, flights climbed and walking/running distance on given day (apple_health_combined_data.csv)
+
 ---
 
 ## **Data Analysis**
 
 ### **1. Data Preprocessing**
+This part is explained further in [Data Sources and Preprocessing](#data-source-and-preprocessing) part.
 - Cleaned and structured datasets from the period tracker app and Apple Health.
 - Merged datasets by date to align menstrual phases with physical activity metrics.
   
