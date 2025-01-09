@@ -312,6 +312,36 @@ A one sided *p-test* was performed to evaluate the hypothesis at a significance 
 
 ## **Machine Learning**
 
+- **Regression:** Predicting Step Count
+- *Objective:* The goal of this analysis was to predict step counts based on menstrual phases, flights climbed, and walking/running distance using a Random Forest Regression model.
+- Results Overview:
+  - *RMSE (Root Mean Squared Error)*: 320.95, indicating the average deviation of predicted values from actual values in terms of step counts.
+   - *MAE (Mean Absolute Error)*: 219.14, which reflects the average absolute difference between predicted and actual values.
+  - *Interpretation:* These metrics demonstrate that the regression model performs reasonably well, with predictions closely aligning with actual step counts.
+
+
+- **Scatter Plot:** Actual vs. Predicted Step Count
+  - The points cluster closely along the diagonal line, indicating a strong agreement between predictions and actual data.
+  - Outliers represent data points where the model’s predictions deviated significantly from the true values.
+  
+![image](https://github.com/user-attachments/assets/4ce39f82-5840-4b7a-8899-0ff20f1af115)
+
+
+- **Bar Chart:** Average Actual and Predicted Step Count by Phase
+  - Both actual and predicted values show consistency across phases, suggesting the model's robustness in capturing trends across menstrual phases.
+  - Minor deviations between actual and predicted values highlight areas for potential model improvement.
+
+![image](https://github.com/user-attachments/assets/e7ab7af2-f21e-42d3-9caa-b8c9d55abb5e)
+
+
+- **Confusion Matrix for Binned Step Counts:**
+  - Step counts were categorized into bins (e.g., 0-2000, 2000-4000, etc.) to evaluate the classification accuracy of the regression predictions.
+  - The matrix compares the actual binned step counts to the predicted bins.
+    - High values along the diagonal indicate that the model frequently predicts the correct step count range.
+    - Misclassifications (off-diagonal values) suggest areas where the model could be optimized, particularly for higher step count ranges.
+
+![image](https://github.com/user-attachments/assets/9e4f9e0b-371e-42af-8ef5-fba794554296)
+
 
 ---
 
