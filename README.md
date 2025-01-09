@@ -39,6 +39,8 @@ To protect privacy, raw data will not be shared in the repository. Instead, all 
 
 The preprocessing process of data is further explained in the following: [*Data Process*](.data_process.ipynb)
 
+The preprocessed data is included in the [data](data) file.
+
 ### **1. Period Tracker App Data**
 Exported data includes:
 - **Phase Information**: Dates of menstrual, follicular, luteal, and ovulation phases.
@@ -346,14 +348,18 @@ A one sided *p-test* was performed to evaluate the hypothesis at a significance 
 ---
 
 ## **Limitations and Future Work**
+
 ### **Limitations**
-- The analysis is based on personal data, limiting its generalizability to larger populations.
-- Period tracker data is restricted to phase information and period dates, while Apple Health data is limited to step counts, flights climbed, and walking/running distances.
-- Data accuracy depends on the frequency and precision of entries in Apple Health and the period tracker app.
-- External factors such as weather, mood, or daily activities that could influence physical activity are not accounted for.
+- **Subjectivity in Data Collection:** The dataset relies on self-reported menstrual phase tracking, which may introduce inaccuracies due to recall bias or inconsistent logging practices.
+- **Limited Sample Size:** The analysis is based on data from a single individual, which limits the generalizability of the findings to a broader population.
+- **Restricted Information:** Period tracker data is restricted to phase information and period dates, while Apple Health data is limited to step counts, flights climbed, and walking/running distances.
+- **Data Accuracy:** Data depends on the frequency and precision of entries in Apple Health and the period tracker app.
+- **Temporal Limitations:** The duration of data collection may not capture long-term trends or seasonal variations in physical activity patterns. External factors such as weather, mood, or daily activities that could influence physical activity are not accounted for.
 
 ### **Future Work**
-- Extend the analysis to a broader dataset from diverse individuals to generalize findings.
-- Incorporate additional metrics like heart rate variability, sleep patterns, or calorie expenditure for a more comprehensive analysis.
-- Explore machine learning techniques to predict physical activity levels based on menstrual phases.
-- Collaborate with researchers to validate findings and contribute to the growing body of menstrual health studies.
+- **Expand Participant Pool:** Collect data from a diverse group of individuals to enhance the generalizability of the findings and allow for population-level insights.
+- **Incorporate Additional Variables:** Include data on diet, sleep quality, stress levels, and other lifestyle factors to better understand their impact on physical activity across menstrual phases.
+- **Enhance Data Accuracy:** Utilize wearable devices and automated tracking tools to reduce reliance on self-reported data, thereby improving accuracy and consistency.
+- **Longitudinal Study Design:** Extend the data collection period to observe long-term trends and seasonal variations, providing a more comprehensive understanding of the relationship between menstrual phases and physical activity.
+- **Advanced Analytical Techniques:** Apply machine learning models and multivariate analyses to identify complex patterns and interactions between variables, potentially uncovering deeper insights.
+- **Develop Personalized Recommendations:** Use the findings to create tailored fitness and wellness recommendations that align with individual menstrual cycles, promoting optimal health outcomes.
