@@ -4,8 +4,8 @@ I am a student from Sabancı University, **Ada Dila Akbulut**, and this is my DS
 The aim of this project is to analyze the interaction between menstrual phases and physical activity data from Apple Health.
 
 These two hypothesis' will be tested:
-- **[First hypothesis](#1.-physical-activity-in-menstruation-phase-&-other-phases)**: Physical activity is lower during the Menstruation phase compared to other phases.
-- **[Second hypothesis](#2.-physical-activity-in-follicular-phase-&-other-phases)**: Physical activity is higher during the Follicular phase compared to other phases.
+- **[First hypothesis](#1-physical-activity-in-menstruation-phase--other-phases)**: Physical activity is lower during the Menstruation phase compared to other phases.
+- **[Second hypothesis](#2-physical-activity-in-follicular-phase--other-phases)**: Physical activity is higher during the Follicular phase compared to other phases.
 
 ---
 
