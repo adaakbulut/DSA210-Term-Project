@@ -3,7 +3,7 @@
 I am a student from Sabancı University, **Ada Dila Akbulut**, and this is my DSA210 term project. 
 The aim of this project is to analyze the interaction between menstrual phases and physical activity data from Apple Health.
 
-These two hypothesis' will be tested:
+These two hypotheses will be tested:
 - **[First hypothesis](#1-physical-activity-in-menstruation-phase--other-phases)**: Physical activity is lower during the Menstruation phase compared to other phases.
 - **[Second hypothesis](#2-physical-activity-in-follicular-phase--other-phases)**: Physical activity is higher during the Follicular phase compared to other phases.
 
@@ -16,6 +16,7 @@ These two hypothesis' will be tested:
 - [Data Analysis](#data-analysis)
 - [Findings](#findings)
   - [Hypothesis Testing](#hypothesis-testing)
+  - [Machine Learning](#machine-learning)
 - [Limitations and Future Work](#limitations-and-future-work)
 
 ---
@@ -64,7 +65,7 @@ For the data I requested from Apple Health, I have requested to export data from
 ## **Data Analysis**
 
 ### **1. Data Preprocessing**
-This part is explained further in [Data Sources and Preprocessing](#data-sources-and-preprocessing) part.
+This part has been explained further in [Data Sources and Preprocessing](#data-sources-and-preprocessing) part. What is acquired in this part is,
 - Cleaned and structured datasets from the period tracker app and Apple Health.
 - Merged datasets by date to align menstrual phases with physical activity metrics.
   
@@ -307,6 +308,9 @@ A one sided *p-test* was performed to evaluate the hypothesis at a significance 
   - Other Phases: 3.85 km
   
 ![image](https://github.com/user-attachments/assets/ff35748d-2ca8-41c4-8143-308f6b08858d)
+
+
+## **Machine Learning**
 
 
 ---
