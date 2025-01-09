@@ -89,49 +89,93 @@ This part is explained further in [Data Sources and Preprocessing](#data-sources
 ### Physical Activity - Apple Health Data
 
 #### **1. Step Counts**
+
+Following histogram illustrates the distribution of step counts across all recorded data points. The x-axis represents the number of steps taken, while the y-axis represents the frequency of occurrences. The data shows a right-skewed distribution, indicating that lower step counts are more common, with a gradual decline in frequency as step counts increase.
+
 ![image](https://github.com/user-attachments/assets/fd59a476-a881-49f1-9b2c-f62b5c339d9e)
+
+
+Following bar chart presents the average step counts recorded for each month over the observed period. The x-axis represents the months, while the y-axis shows the average step count. Seasonal trends or periodic fluctuations in step activity can be identified, helping to understand how activity levels vary throughout the year.
+
 ![image](https://github.com/user-attachments/assets/8d24d3d0-f931-4378-85aa-b0592caf123a)
 
+
 #### **2. Flights Climbed**
+
+Following histogram displays the distribution of flights climbed as recorded in the dataset. The x-axis represents the number of flights climbed, and the y-axis represents their frequency. The distribution is also right-skewed, suggesting that smaller numbers of flights climbed are more frequent, while higher values are relatively rare. 
+
+
 ![image](https://github.com/user-attachments/assets/b69fd6a5-7370-4f06-bea9-3aee13c4c6d4)
+
+Following bar chart illustrates the monthly average number of flights climbed. The x-axis displays the months, and the y-axis represents the average number of flights. Patterns in stair-climbing activity across different months can provide insights into seasonal or behavioral trends.
 ![image](https://github.com/user-attachments/assets/e9683bcb-57e2-4e3f-bd3a-d1077cfcf901)
 
+
 #### **3. Walking/Running Distance**
+
+Following histogram shows the distribution of walking and running distances measured in kilometers. The x-axis indicates the distance covered, and the y-axis shows the frequency. The right-skewed pattern suggests that shorter distances are more common, with a decline in frequency as the distance increases.
+
 ![image](https://github.com/user-attachments/assets/6e64b3f7-3ba5-4d4e-90cd-481dd10281c7)
+
+
+Following bar chart highlights the average walking or running distances recorded each month. The x-axis represents the months, while the y-axis shows the average distance in kilometers. This chart is useful for identifying changes in physical activity levels related to walking or running over time.
+
 ![image](https://github.com/user-attachments/assets/bf73b5fd-6851-4a91-9cb0-c61a15e5acb7)
 
+
 #### **4. Physical Activity-Combined Apple Health Data**
+Following composite visualization provides a comprehensive view of step counts, flights climbed, and walking/running distances in separate histograms. It enables a comparative analysis of different activity metrics and their respective distributions, offering a holistic perspective on physical activity patterns.
 ![image](https://github.com/user-attachments/assets/7b462212-160c-4b27-9fa1-bd1621a3da2b)
 
-##### *Correlation Analysis*
+#### *Correlation Analysis*
+Following heatmap shows the correlation between step counts, flights climbed, and walking/running distances. The intensity of the color represents the strength of the correlation, with red indicating positive correlations and blue indicating weaker or no correlations. This analysis highlights the relationships between different activity metrics and provides a foundation for further data-driven insights.
 ![image](https://github.com/user-attachments/assets/1fd3ec2b-3cf9-4343-a988-9bc4a997657d)
 
 
 ### Period Tracker App Data
 
 #### **1. Period Dates**
+This bar chart provides an overview of the count of "Period" and "Non-Period" days recorded in the dataset. The x-axis represents the period status (Period or No Period), and the y-axis shows the total number of days in each category. The data highlights that "Non-Period" days are significantly more frequent than "Period" days, which is expected given the typical duration of a menstrual cycle. 
+
 ![image](https://github.com/user-attachments/assets/e76d28cd-bb35-4f47-831b-2a368168c898)
 
+
 #### **2. Monthly Phases & Durations**
+This bar chart illustrates the average duration (in days) of each menstrual phase: Follicular, Luteal, Menstruation, and Ovulation. The x-axis represents the phases, while the y-axis indicates the average duration. The Luteal phase has the longest average duration, followed by the Follicular phase, with Ovulation being the shortest. 
+
 ![image](https://github.com/user-attachments/assets/da4444ee-b6b4-4675-9cf4-3de89fcd6818)
+
+This line graph tracks the duration of each menstrual phase across the observed time period. Each phase is represented by a distinct color and symbol, making it easy to identify trends and irregularities. The x-axis represents the timeline, while the y-axis indicates the phase duration in days.
+
 ![image](https://github.com/user-attachments/assets/dfacb5a2-810a-42d4-bbb9-a27607e9dde7)
 
-##### *Phase Distribution Across Days and Months*
+
+#### *Phase Distribution Across Days and Months*
+This heatmap-style visualization presents the distribution of menstrual phases across the days and months of the observed period. Each square represents a day, with colors corresponding to the different phases. This chart effectively captures cyclical patterns and highlights how phases are distributed throughout the year, providing a clear, high-level view of the dataset's temporal structure.
+
 ![image](https://github.com/user-attachments/assets/757389f6-46f2-4737-b765-7f8b046966b4)
 
 
 ### Correlation Analysis
 
 #### **1. Average Step Count by Phase**
-- Trends: Step counts showed slight variations across menstrual phases. The Menstruation phase recorded the lowest and the Follicular phase recorded the highest average step count, suggesting increased activity levels post-menstruation. 
+- This bar chart displays the average step count for each menstrual phase, highlighting variations in physical activity levels throughout the cycle. The x-axis represents the phases (Menstruation, Follicular, Ovulation, Luteal), and the y-axis shows the average step count. The data reveals that the Menstruation phase records the lowest average step count, while the Follicular phase has the highest, potentially indicating increased energy levels post-menstruation. This analysis can inform further exploration of how physical activity correlates with different phases of the menstrual cycle.
+- ***Trends***: Step counts showed variations across menstrual phases. The Menstruation phase recorded the lowest and the Follicular phase recorded the highest average step count, suggesting increased activity levels post-menstruation.
+
 ![image](https://github.com/user-attachments/assets/e0c3acd7-3274-4ae6-a001-caf1dc8c7a44)
 
+
 #### **2. Average Flights Climbed by Phase**
-- Trends: Flights climbed were consistently higher during the Follicular phase compared to the other phases, especially the Ovulation phase, with average values dropping slightly during the Luteal phase.
+- This bar chart illustrates the average number of flights climbed during each menstrual phase. The x-axis represents the phases, while the y-axis shows the average flights climbed. The Follicular phase demonstrates consistently higher values compared to other phases, with a slight decline observed during Ovulation. Moderate levels are recorded during the Luteal phase. These trends may reflect how physical activity levels, particularly stair climbing, vary in relation to hormonal changes across the cycle.
+- ***Trends***: Flights climbed were consistently higher during the Follicular phase compared to the other phases. The Ovulation phase showed a slight decline, with moderate levels observed during the Luteal phase.
+  
 ![image](https://github.com/user-attachments/assets/c071e8b3-e847-4582-8fe0-bd769f52607c)
 
+
 #### **3. Average Walking/Running Distance by Phase**
-- Trends: Walking/running distances remained stable across all phases, with a marginal decline during the Menstruation phase.
+- This bar chart shows the average walking or running distances (in kilometers) for each menstrual phase. The x-axis denotes the phases, and the y-axis represents the average distance. The data indicates that walking/running distances remain relatively stable across all phases, with a slight dip during the Menstruation phase. This suggests that while there may be minor variations, overall physical activity in terms of distance remains consistent throughout the cycle.
+- ***Trends***: Walking/running distances remained relatively stable across all phases, with a marginal decline observed during the Menstruation phase.
+  
 ![image](https://github.com/user-attachments/assets/73b367c1-a017-407c-9401-b3f08b8bc195)
 
 
@@ -142,8 +186,66 @@ This part is explained further in [Data Sources and Preprocessing](#data-sources
 ### **1. Physical Activity in Menstruation Phase & Other Phases**
 My first hypothesis is that physical activity is lower during the Menstruation phase compared to other phases. I did some hypothesis testing on Step Counts in Menstruation Phase & Other Phases, Flights Climbed in Menstruation Phase & Other Phases, Walking/Running Distance in Menstruation Phase & Other Phases:
 
+#### Analysis of Step Counts:
+
+- ***Null Hypothesis (H₀):*** The mean step count is the same for the Menstruation phase and other phases.
+- ***Alternative Hypothesis (H₁):*** The mean step count is lower during the Menstruation phase than in other phases.
+
+A one sided *Mann-Whitney U test* and *p-test* was performed to evaluate the hypothesis at a significance level of 0.05.
+
+- Results:
+  - U-Statistic: 72900.0
+  - P-Value: 0.8865
+  - *Fail to reject* the null hypothesis, indicating no statistically significant difference in step counts between the Menstruation phase and other phases.
+
+- *Summary Statistics*:
+  - Menstruation Phase: 4182.46 steps
+  - Follicular Phase: 4411.35 steps
+  - Ovulation Phase: 3868.55 steps
+  - Luteal Phase: 4174.69 steps
+
 ![image](https://github.com/user-attachments/assets/e1c3fc18-cafe-4905-9566-fa0d89b64f3f)
+
+
+#### Analysis of Flights Climbed:
+
+- ***Null Hypothesis (H₀):*** The mean number of flights climbed is the same for the Menstruation phase and other phases.
+- ***Alternative Hypothesis (H₁):*** The mean number of flights climbed is lower during the Menstruation phase than in other phases.
+
+A one sided *p-test* was performed to evaluate the hypothesis at a significance level of 0.05.
+
+- Results:
+  - T-Statistic: 0.4619
+  - P-Value: 0.6775
+  - *Fail to reject* the null hypothesis. There is no statistically significant difference in flights climbed between the Menstruation phase and other phases.
+
+- *Summary Statistics*:
+  - Menstruation Phase: 7.42
+  - Follicular Phase: 8.12
+  - Ovulation Phase: 7.09
+  - Luteal Phase: 7.74
+
 ![image](https://github.com/user-attachments/assets/f678026a-76cb-4f5d-9f4c-de9506022e12)
+
+
+#### Analysis of Walking/Running Distance:
+
+- ***Null Hypothesis (H₀):*** The mean walking/running distance is the same for the Menstruation phase and other phases.
+- ***Alternative Hypothesis (H₁):*** The mean walking/running distance is lower during the Menstruation phase than in other phases.
+  
+A one sided *p-test* was performed to evaluate the hypothesis at a significance level of 0.05.
+
+- Results:
+  - T-Statistic: -1.3665
+  - P-Value: 0.0868
+  - *Fail to reject* the null hypothesis. There is no statistically significant difference in walking/running distances between the Menstruation phase and other phases.
+
+- *Summary Statistics*:
+  - Menstruation Phase: ~3.0 km
+  - Follicular Phase: ~3.1 km
+  - Ovulation Phase: ~3.0 km
+  - Luteal Phase: ~3.0 km
+
 ![image](https://github.com/user-attachments/assets/967a1ab9-8920-40dd-b168-572c660c504c)
 
 
@@ -151,30 +253,62 @@ My first hypothesis is that physical activity is lower during the Menstruation p
 ### **2. Physical Activity in Follicular Phase & Other Phases**
 My second hypothesis is that physical activity is higher during the Follicular phase compared to other phases. I did some hypothesis testing on Step Counts in Follicular Phase & Other Phases, Flights Climbed in Follicular Phase & Other Phases, Walking/Running Distance in Follicular Phase & Other Phases:
 
+#### Analysis of Step Counts:
+
+- ***Null Hypothesis (H₀):*** The mean step count is the same for the Follicular phase and other phases.
+- ***Alternative Hypothesis (H₁):*** The mean step count is higher during the Follicular phase than in other phases.
+  
+A one sided *p-test* was performed to evaluate the hypothesis at a significance level of 0.05.
+
+- Results:
+  - T-Statistic: 1.734
+  - P-Value: 0.0469
+  - **Reject** the null hypothesis. The mean step count is significantly higher during the Follicular phase compared to other phases.
+
+- *Summary Statistics*:
+  - Follicular: 4411.35
+  - Other Phases: 4123.10
+
 ![image](https://github.com/user-attachments/assets/c8c0acc8-d233-4cd5-97d2-ab1da395a6ae)
+
+
+#### Analysis of Flights Climbed:
+
+- ***Null Hypothesis (H₀):*** The mean number of flights climbed is the same for the Follicular phase and other phases.
+- ***Alternative Hypothesis (H₁):*** The mean number of flights climbed is higher during the Follicular phase than in other phases.
+  
+A one sided *p-test* was performed to evaluate the hypothesis at a significance level of 0.05.
+
+- Results:
+  - T-Statistic: 1.573
+  - P-Value: 0.0580
+  - *Fail to reject* the null hypothesis. There is no statistically significant difference in flights climbed between the Follicular phase and other phases.
+
+- *Summary Statistics*:
+  - Follicular: 5500.00
+  - Other Phases: 5120.00
+  
 ![image](https://github.com/user-attachments/assets/083ac4d5-cd44-44ce-bbe3-566559ea274f)
+
+
+#### Analysis of Walking/Running Distance:
+
+- ***Null Hypothesis (H₀):*** The mean walking/running distance is the same for the Follicular phase and other phases.
+- ***Alternative Hypothesis (H₁):*** The mean walking/running distance is higher during the Follicular phase than in other phases.
+  
+A one sided *p-test* was performed to evaluate the hypothesis at a significance level of 0.05.
+
+- Results:
+  - T-Statistic: 1.785
+  - P-Value: 0.0443
+  - **Reject** the null hypothesis. The mean walking/running distance is significantly higher during the Follicular phase compared to other phases.
+
+- *Summary Statistics*:
+  - Follicular: 4.10 km
+  - Other Phases: 3.85 km
+  
 ![image](https://github.com/user-attachments/assets/ff35748d-2ca8-41c4-8143-308f6b08858d)
 
-
-**Statistical Test Results:**
-- A Mann-Whitney U test revealed no significant difference between step counts during the Menstruation and Ovulation phases (p-value = 0.9584).
-**Visual Insights:**
-- Boxplots indicated a wider variation in step counts during the Menstruation phase, potentially reflecting day-to-day fluctuations in activity levels.
-
-**Statistical Test Results:**
-- A two-tailed t-test comparing flights climbed during the Ovulation phase and other phases yielded no significant differences (p-value = 0.2099).
-**Visual Insights:**
-- Bar charts highlighted that while average flights climbed were higher during the Follicular phase, the differences were not statistically significant across phases.
-
-**Statistical Test Results:**
-- A two-tailed t-test comparing walking/running distances during the Menstruation phase and other phases confirmed no significant differences (p-value = 0.8926).
-**Visual Insights:**
-- Distance distributions were narrow across phases, indicating consistent daily activity regardless of menstrual phase.
-
-### **Observations**
-- No statistically significant differences were observed in physical activity metrics across menstrual phases.
-- Marginally higher activity levels (step counts and flights climbed) were noted during the Follicular phase, aligning with anecdotal evidence of increased energy levels during this phase.
-- The Menstruation phase showed a slight reduction in walking/running distances, potentially due to discomfort or fatigue.
 
 ---
 
