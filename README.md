@@ -89,20 +89,14 @@ This part is explained further in [Data Sources and Preprocessing](#data-sources
 ### Physical Activity - Apple Health Data
 
 #### **1. Step Counts**
-- Trends: Step counts showed slight variations across menstrual phases. The Follicular phase recorded the highest average step count, suggesting increased activity levels post-menstruation.
-
 ![image](https://github.com/user-attachments/assets/fd59a476-a881-49f1-9b2c-f62b5c339d9e)
 ![image](https://github.com/user-attachments/assets/8d24d3d0-f931-4378-85aa-b0592caf123a)
 
 #### **2. Flights Climbed**
-- Trends: Flights climbed were consistently higher during the Follicular phase compared to the Ovulation phase, with average values dropping slightly during the Luteal phase.
-
 ![image](https://github.com/user-attachments/assets/b69fd6a5-7370-4f06-bea9-3aee13c4c6d4)
 ![image](https://github.com/user-attachments/assets/e9683bcb-57e2-4e3f-bd3a-d1077cfcf901)
 
 #### **3. Walking/Running Distance**
-- Trends: Walking/running distances remained stable across all phases, with a marginal decline during the Menstruation phase.
-
 ![image](https://github.com/user-attachments/assets/6e64b3f7-3ba5-4d4e-90cd-481dd10281c7)
 ![image](https://github.com/user-attachments/assets/bf73b5fd-6851-4a91-9cb0-c61a15e5acb7)
 
@@ -125,14 +119,42 @@ This part is explained further in [Data Sources and Preprocessing](#data-sources
 ##### *Phase Distribution Across Days and Months*
 ![image](https://github.com/user-attachments/assets/757389f6-46f2-4737-b765-7f8b046966b4)
 
+
+### Correlation Analysis
+
+#### **1. Average Step Count by Phase**
+- Trends: Step counts showed slight variations across menstrual phases. The Menstruation phase recorded the lowest and the Follicular phase recorded the highest average step count, suggesting increased activity levels post-menstruation. 
+![image](https://github.com/user-attachments/assets/e0c3acd7-3274-4ae6-a001-caf1dc8c7a44)
+
+#### **2. Average Flights Climbed by Phase**
+- Trends: Flights climbed were consistently higher during the Follicular phase compared to the other phases, especially the Ovulation phase, with average values dropping slightly during the Luteal phase.
+![image](https://github.com/user-attachments/assets/c071e8b3-e847-4582-8fe0-bd769f52607c)
+
+#### **3. Average Walking/Running Distance by Phase**
+- Trends: Walking/running distances remained stable across all phases, with a marginal decline during the Menstruation phase.
+![image](https://github.com/user-attachments/assets/73b367c1-a017-407c-9401-b3f08b8bc195)
+
+
 ---
 
 ## **Hypothesis Testing**
 
 ### **1. Physical Activity in Menstruation Phase & Other Phases**
+My first hypothesis is that physical activity is lower during the Menstruation phase compared to other phases. I did some hypothesis testing on Step Counts in Menstruation Phase & Other Phases, Flights Climbed in Menstruation Phase & Other Phases, Walking/Running Distance in Menstruation Phase & Other Phases:
+
+![image](https://github.com/user-attachments/assets/e1c3fc18-cafe-4905-9566-fa0d89b64f3f)
+![image](https://github.com/user-attachments/assets/f678026a-76cb-4f5d-9f4c-de9506022e12)
+![image](https://github.com/user-attachments/assets/967a1ab9-8920-40dd-b168-572c660c504c)
+
 
 
 ### **2. Physical Activity in Follicular Phase & Other Phases**
+My second hypothesis is that physical activity is higher during the Follicular phase compared to other phases. I did some hypothesis testing on Step Counts in Follicular Phase & Other Phases, Flights Climbed in Follicular Phase & Other Phases, Walking/Running Distance in Follicular Phase & Other Phases:
+
+![image](https://github.com/user-attachments/assets/c8c0acc8-d233-4cd5-97d2-ab1da395a6ae)
+![image](https://github.com/user-attachments/assets/083ac4d5-cd44-44ce-bbe3-566559ea274f)
+![image](https://github.com/user-attachments/assets/ff35748d-2ca8-41c4-8143-308f6b08858d)
+
 
 **Statistical Test Results:**
 - A Mann-Whitney U test revealed no significant difference between step counts during the Menstruation and Ovulation phases (p-value = 0.9584).
